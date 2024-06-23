@@ -1,4 +1,4 @@
-// Creating a singleton object named cybervidya
+
 const cybervidya = new Object(); // Singleton object
 
 // Creating a non-singleton object named sanchit
