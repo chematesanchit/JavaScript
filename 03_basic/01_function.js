@@ -25,3 +25,16 @@ function longinUserMessage(username ="sanchit") {// usernmae = "sanchit" it will
     
 }
 console.log (longinUserMessage("viki"))
+
+function calculatePrice(...num1) {// (...num1) this is rest operator it bundled all element in parameter 
+    return num1
+    
+}
+console.log(calculatePrice(200,400,500))
+
+const myNewArray = [200,400,300,222,455,566]
+function returnSecondValue(array){
+return array[1]
+}
+// console. tog (returnSecondVatue (myNewArray)) ;
+console.log (returnSecondValue(myNewArray) ) ;
