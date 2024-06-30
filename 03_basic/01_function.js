@@ -14,7 +14,7 @@ function add(N1, N2) {
     console.log(N1+N2)
     
 }
-//add(5,6)
+add(5,6)
 
 function longinUserMessage(username ="sanchit") {// usernmae = "sanchit" it will take sanchit if no parameter provided"
     if (username === undefined){
